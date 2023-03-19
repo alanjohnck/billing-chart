@@ -6,6 +6,7 @@ import {getDocs,collection,addDoc,doc,deleteDoc} from "firebase/firestore"
 import { useEffect } from 'react';
 import Navbar from "./components/Navbar";
 import Remaining from "./components/Remaining";
+import { useReducer } from "react";
 
 function App() {
 
@@ -15,27 +16,28 @@ function App() {
   const[newDate,setNewDate]=useState(0);
   const[newKg,setNewKg]=useState(0);
   const[search,setSearch]=useState("");
-
+ const [reducerValue,forceUpdate]=useReducer(x=>x+1,0)
   const dataCollection=collection(db,"datas");
 
   const createUser=async()=>{
     await addDoc(dataCollection,{product:newProduct,price:Number(newPrice),date:newDate,Kg:Number(newKg)})
   }
   
-  useEffect(() =>{
+ 
     const getDatas=async()=>{
       try{
       const data=await getDocs(dataCollection);
       const filterData=data.docs.map((doc)=>({...doc.data(),id:doc.id}));
    setDatas(filterData); 
+       forceUpdate();
       }catch(err){
         console.error(err);
       }
     };
-
+ useEffect(() =>{
  getDatas();
 
-  },[]);
+  },[reducerValue]);
   
 
   const deleteProduct=async(id) =>{
