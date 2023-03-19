@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  padding: 0;
+background-color:#0075a2;
+
+}
+h1{
+  padding: 10px ;
+  margin: 0;
+  color:white;
+}
+
+ 
+
+.inputs{
+  padding: 50px 50px  ;
+color: white;
+  text-align: center;
+  height: 50px;
+  background-color:#0075a2;
+  
+}
+
+.navbar{
+ height:70px;
+ 
+ text-align: center;
+background-color: #118ab2;
+box-shadow: 10px 5px 5px #0075a2;
+}
+table{
+  margin-top: 70px;
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px;
+  background-color: white;
+  text-align: left;
+  overflow: hidden;
+}
+thead{
+box-shadow:0 5px 10px white ;
+}
+th{
+  padding: 1rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size:0.7rem ;
+  font-weight: 900;
+}
+td{
+padding: 1rem 2rem;
+text-decoration: none;
+  text-transform: uppercase;
+}
+tr:nth-child(even){
+background-color: #adf5ff;
+}
+
+.body-app{
+
+  height:auto;
+background-color:#0075a2;
+}
+
+button{
+  color: white;
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 10PX;
+  border-color: aqua;
+  display:inline;
+  background-color:#053c5e;
+
+  
+}
+
+.input-box{
+  padding: 10px;
+  margin: 25px;
+  border: none;
+  outline: none;
+}
+ .balance{
+ width: 50%;
+  height: 200px;
+  margin-top: 270px;
+  position: absolute;
+ }
+ nav{
+  position: absolute;
+ }
+ 
+ 
+
