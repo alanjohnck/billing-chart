@@ -60,9 +60,9 @@ function handleButton(){
 <select className="input-box"  onChange={(event)=>(setNewProduct(event.target.value))}>
     <option value="product">product</option>
     <option value="coconut">coconunt</option>
-    <option value="kurunmulak">mango</option>
+    <option value="mango">mango</option>
     <option value="sheet">sheet</option>
-    <option value="chadi paal">tea powder</option>
+    <option value="tea powder">tea powder</option>
   </select>
  PRICE: <input className="input-box" type="number" placeholder='price' onChange={(event)=>(setNewPrice(event.target.value))}/>
  DATE: <input className="input-box" type="date" placeholder='Date' onChange={(event)=>(setNewDate(event.target.value))}/>
