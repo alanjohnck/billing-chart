@@ -6,13 +6,13 @@ import {getFirestore} from "firebase/firestore"
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB-zZzIxz1Vy4SnqSl6rVlH-2doj_mHijg",
-  authDomain: "vercel-bill-app.firebaseapp.com",
-  projectId: "vercel-bill-app",
-  storageBucket: "vercel-bill-app.appspot.com",
-  messagingSenderId: "545396195556",
-  appId: "1:545396195556:web:32769019bcd369c19cacf1",
-  measurementId: "G-RG528SD0T6"
+  apiKey: "AIzaSyCmZerrlw3uOAzd-6YImYXRjXrLyxvS3AI",
+  authDomain: "alandatabase-6b54b.firebaseapp.com",
+  projectId: "alandatabase-6b54b",
+  storageBucket: "alandatabase-6b54b.appspot.com",
+  messagingSenderId: "22848517666",
+  appId: "1:22848517666:web:357dbc44149044d7debc7b",
+  measurementId: "G-9M0B9XXL3C"
 };
 
 const app = initializeApp(firebaseConfig);
