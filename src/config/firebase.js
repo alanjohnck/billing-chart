@@ -6,13 +6,13 @@ import {getFirestore} from "firebase/firestore"
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCmZerrlw3uOAzd-6YImYXRjXrLyxvS3AI",
-  authDomain: "alandatabase-6b54b.firebaseapp.com",
-  projectId: "alandatabase-6b54b",
-  storageBucket: "alandatabase-6b54b.appspot.com",
-  messagingSenderId: "22848517666",
-  appId: "1:22848517666:web:357dbc44149044d7debc7b",
-  measurementId: "G-9M0B9XXL3C"
+ apiKey: "AIzaSyAjtnliE5GuNEGz6UDptcPrltwHPTd38RY",
+  authDomain: "billing-88d10.firebaseapp.com",
+  projectId: "billing-88d10",
+  storageBucket: "billing-88d10.appspot.com",
+  messagingSenderId: "1098686755851",
+  appId: "1:1098686755851:web:5a16b4cf7c89a5074dc30e",
+  measurementId: "G-JRF964MXRB"
 };
 
 const app = initializeApp(firebaseConfig);
