@@ -1,94 +1,92 @@
 body{
   margin: 0;
   padding: 0;
-background-color:#0075a2;
+ background-color:#1d2b3a;
 
 }
-h1{
-  padding: 10px ;
+span{
+  color:rgb(247, 232, 232);
+}
+.heading{
+   
+ width: 100%;
+ background-color:black;
+ display: flex;
+
+ gap:10px;
+ 
+}
+.heading input{
+margin: 10px;
+  width: 15rem;
+  height: 20px;
+  border: 1px solid grey;
+  background: #1d2b3a;
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  font-size: 1rem;
+  
+}
+.heading h1{
   margin: 0;
   color:white;
-}
-
- 
-
-.inputs{
-  padding: 50px 50px  ;
-color: white;
-  text-align: center;
-  height: 50px;
-  background-color:#0075a2;
   
 }
-
-.navbar{
- height:70px;
- 
- text-align: center;
-background-color: #118ab2;
-box-shadow: 10px 5px 5px #0075a2;
+h2{
+  margin: 0;
+  color:black
 }
 table{
-  margin-top: 70px;
-  border-collapse: collapse;
-  box-shadow: 0 5px 10px;
+  color:white;
+}
+tr{
+  color: black;
   background-color: white;
-  text-align: left;
-  overflow: hidden;
 }
-thead{
-box-shadow:0 5px 10px white ;
-}
-th{
-  padding: 1rem 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  font-size:0.7rem ;
-  font-weight: 900;
-}
-td{
-padding: 1rem 2rem;
-text-decoration: none;
-  text-transform: uppercase;
-}
-tr:nth-child(even){
-background-color: #adf5ff;
-}
-
-.body-app{
-
-  height:auto;
-background-color:#0075a2;
-}
-
 button{
-  color: white;
-  width: 200px;
-  height: 50px;
-  border: none;
-  border-radius: 10PX;
-  border-color: aqua;
-  display:inline;
-  background-color:#053c5e;
+ height:60px;
+ width: 160px;
+ background-color:#bcc3cc ;
+ color: white;
+ 
+ margin: 10px;
 
-  
+
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inputs{
+  display: inline-flex;
+}
+@media(min-width:390px){
+  .inputs{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background-color: #1d2b3a;
+      position: relative;
+      gap:20px
+  }
+  .inputs input,select{
+      width: 100%;
+      padding: 10px;
+      border: 1px solid grey;
+      background: #1d2b3a;
+      border-radius: 5px;
+      outline: none;
+      color: #fff;
+      font-size: 1rem;
+  }
+  .inputs span{
+      color:white;
+  }
+
 }
 
-.input-box{
-  padding: 10px;
-  margin: 25px;
-  border: none;
-  outline: none;
-}
- .balance{
- width: 50%;
-  height: 200px;
-  margin-top: 270px;
-  position: absolute;
- }
- nav{
-  position: absolute;
- }
- 
- 
+
 
